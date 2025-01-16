@@ -18,11 +18,11 @@ const Home: NextPage = () => {
         </Head>
 
         <Menu />
-        {/* Header */}
+
         <div className='flex flex-col place-items-center py-44 space=-y-3'>
           <h1 className='text-5xl font-bold'>Ayo Mulai Voting</h1>
           <h2 className='text-lg bg-zinc-100 px-3 py-1 mt-3'>
-            Web Voting No.1 Di Indonesia
+            Web Voting No.1 Di Malang
           </h2>
           <Image
             alt={'Header'}
@@ -44,8 +44,7 @@ const Home: NextPage = () => {
             />
           </div>
         </div>
-        {/* Header */}
-        {/* Table */}
+
         <div>
           <p className='py-5 text-lg font-bold'>Vote yang saya buat 🪧</p>
           <table className='table-auto w-full border-zinc-100'>
